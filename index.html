@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Word-like application</title>
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+	<button onclick="mettreEnGras()" >Gras</button>
+	<button onclick="mettreItalic()">Italic</button>
+	<button onclick="underlineOverline()">souligne</button>
+	<br>
+	<select id="mySelect" onchange="salut(this)" name="fonts" id="fonts">
+  <option value="14px">14</option>
+  <option value="18px">18</option>
+  <option value="20px">20</option>
+  <option value="22px">22</option>
+</select>
+<select id="mySelect" onchange="hello(this)" name="fonts" id="size">
+  <option value="Arial">arial</option>
+  <option value="myriad">myriad</option>
+</select>
+<br>
+	<textarea id="text"></textarea>
+	
+	
+</body>
+</html>
